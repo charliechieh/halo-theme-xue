@@ -7,7 +7,8 @@
 </#if>
 <#if settings.enable_code_highlight!true>
     <#-- 代码高亮-->
-    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.0.0/build/highlight.min.js"></script>
+    <#--  <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.0.0/build/highlight.min.js"></script>  -->
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.4.1/build/highlight.min.js"></script>
     <#if settings.enable_code_lineNumber!false> 
         <#--代码行数-->
         <script src="https://cdn.jsdelivr.net/gh/xzzai/static@master/js/linesNumber.js"></script>
